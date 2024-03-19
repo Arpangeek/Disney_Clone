@@ -66,10 +66,7 @@ function Header() {
           ) : null}
         </div>
       </div>
-      <img
-        src="src\assets\Image\batman.png"
-        className="w-[40px] rounded-full"
-      />
+      <img src="src\assets\Image\smile.png" className="w-[40px] rounded-full" />
     </div>
   );
 }

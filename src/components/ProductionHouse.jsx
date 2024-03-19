@@ -46,11 +46,13 @@ function ProductionHouse() {
           <img src={item.image} className="w-full z-[1] " />
           <video
             src={item.video}
-            autoPlay
+            typeof="video/mp4"
+            autoPlay="autoplay"
             loop
             playsInline
+            muted
             className="absolute top-0 rounded-md z-0 opacity-0
-            hover:opacity-50"
+            hover:opacity-40"
           />
         </div>
       ))}
